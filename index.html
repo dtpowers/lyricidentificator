@@ -1,0 +1,62 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+<script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type='text/javascript' src="scripts.js"> </script>
+
+</head>
+<body>
+    <div class="wrapper lyricPage">
+        <div class="container">
+            <h1 class="title">The Lyricidentificator</h1>
+            <form id="search-form">
+                <input type="text" id="lyrics" placeholder="What are the lyrics stuck in your head?" class="form-control" />
+                <input type="submit" id="search" class="submitButton" value="Find the Song" />
+            </form>
+        </div>
+        <div class="separator"></div>
+        <div class="container results">
+            <h3>Artist: <span id="artist"></span></h3>
+            <h3>Song: <span id="song-title"></span></h3>
+            <h2 id="lyric-content" style="font-size: 30px;"></h2>
+            <h2 style="color: #333;padding-top:20px;">Is this the song you were looking for?</h2>
+            <div id="buttonArea">
+                <button id="yes-button" class="niceButton">
+                    <img src="thumbs28.svg" style="height:50px;">
+                </button>
+                <button id="no-button" class="niceButton">
+                    <img src="thumbs27.svg" style="height:50px;">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper albumPage" style="text-align:center">
+        <h3 style="margin-top:20px">Artist: <span id="artist2"></span></h3>
+        <h3>Song: <span id="song-title2"></span></h3>
+        <h3 style="font-weight:200;">Click cover to play sample.</h3>
+    </div>
+<!--
+  <div class="container">
+
+    <h1>Search for an Artist</h1>
+   
+    <form id="search-form">
+        <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/>
+        <input type="submit" id="search" class="btn btn-primary" value="Search" />
+    </form>
+    <div id="results"></div>
+</div>
+<script id="results-template" type="text/x-handlebars-template">
+    {{#each albums.items}}
+    <div style="background-image:url({{images.0.url}})" data-album-id="{{id}}" class="cover"></div>
+    {{/each}}
+</script>
+-->
+  
+</body>
+
+</html>

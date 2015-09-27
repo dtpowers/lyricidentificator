@@ -1,0 +1,189 @@
+body {
+     background-color: #4fb95d;
+}
+
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+
+html{
+    font-family: "Open Sans";
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.container{
+    width: 80%;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: solid 5px #eee;
+    transition: .3s;
+    color: #d9d9d9;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+::-webkit-input-placeholder{
+    color: #c9c9c9;
+}
+
+input[type="text"]:focus{
+    border: solid 5px #c9c9c9;
+}
+
+.submitButton{
+    float: right;
+    padding: 10px 40px;
+    background: #46a954;
+    border: solid 5px #46a954;
+    font-size: 22px;
+    font-weight: 600;
+    color: #eee;
+    transition: .3s;
+    border-radius: 60px;
+}
+
+.submitButton:hover{
+    background: #58dd6a;
+    cursor: pointer;
+    border: solid 5px #eee;
+}
+
+h1{
+    color: #eee;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+h3{
+    color: #eee;
+}
+
+.separator{
+    padding: 0%;
+}
+
+#artist, #song-title, #artist2, #song-title2{
+    font-weight: 300;
+}
+
+#lyric-content{
+    width: 60%;
+    margin:auto;
+   
+    color: #eee;
+}
+
+.title{
+    opacity: 1;
+}
+
+.results{
+    opacity: 0;
+    display: none;
+    text-align:center;
+    padding-bottom: 2%;
+}
+.albumPage{
+  display: none;
+}
+#buttonArea{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.nicebutton{
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    fill: #eee;
+    transition: .3s;
+    border-radius: 60px;
+    margin: 30px;
+}
+
+#yes-button{
+    background: #6be77c;
+    border: solid 5px #6be77c;
+}
+
+#no-button{
+    background: #ef686a;
+    border: solid 5px #ef686a;
+}
+
+#yes-button:hover{
+    background: #4bb059;
+    cursor: pointer;
+    border: solid 5px #eee;
+}
+
+#no-button:hover{
+    background: #dd383b;
+    cursor: pointer;
+    border: solid 5px #eee;
+}
+
+#coverimg{
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#coverimg:hover{
+    cursor: pointer;
+}
+
+.reset{
+    margin-top: 30px;
+    float: center;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    fill: #eee;
+    transition: .3s;
+    border-radius: 60px;
+    margin: 30px;
+    background: #46a954;
+    border: solid 5px #46a954;
+}
+
+.reset:hover{
+    background: #58dd6a;
+    cursor: pointer;
+    border: solid 5px #eee;
+}
+
+a{
+    color: #eee;
+    font-size: 14px;
+}

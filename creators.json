@@ -1,0 +1,17 @@
+{ "info" : {
+            "max" : {
+                "name" : "Max Harlynking",
+                "relationship-status" : "Single",
+                "interested-in" : "Subhuman Species",
+                "favorite-musical-subgenre" : "Electro-Pop Rapdisco",
+                "hair-color" : "rojo"
+            },
+            "donovan" : {
+                "name" : "Donovan Powers",
+                "relationship-status" : "Ladies, please.",
+                "interested-in" : "Horse GIFs",
+                "favorite-musical-subgenre" : "Victorian Proto-Punk",
+                "hair-color" : "yes"
+            }
+  }
+}
